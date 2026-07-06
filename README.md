@@ -13,3 +13,6 @@ gen_lnk_coerce.py -i 192.168.115.1 --verbose
 ```
 
 A common use of this is to go and place `~document.lnk` on a writeable SMB share. Anyone who accesses this share in Windows Explorer will try to render the icon located at the UNC path specified which will coerce NTLM authentication in the context of their user account.
+
+## TODO
+- See if they have decent NTFS metadata
