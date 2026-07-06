@@ -1,5 +1,5 @@
 # lnk-coerce
-Simple tool to create .lnk files that coerce NTLM authentication
+Simple tool to create .lnk files that coerce NTLM authentication. I made this because the other tools that I found had more dependencies and were more complicated to run. This version works with python core, no pip installs.
 
 # Usage
 
